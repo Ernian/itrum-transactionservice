@@ -41,6 +41,11 @@ spring:
       notification:
         name: notification
 
+redis-params:
+  transaction-id-storage: transaction-id-storage
+  transaction-id-ttl-minute: 15
+  wallet-key-prefix: wallet-uuid-
+
 
 logging:
   level:

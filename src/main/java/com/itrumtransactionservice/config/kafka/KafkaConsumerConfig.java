@@ -1,6 +1,5 @@
-package com.itrumtransactionservice.config;
+package com.itrumtransactionservice.config.kafka;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.springframework.beans.factory.annotation.Value;
